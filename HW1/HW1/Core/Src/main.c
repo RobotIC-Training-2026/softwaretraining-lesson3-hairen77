@@ -97,7 +97,7 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
 /* USER CODE BEGIN 2 */
-HAL_UART_Receive_IT(&huart1, rx_buf, 6);  // 启动第一次中断接收
+HAL_UART_Receive_IT(&huart1, rx_buf, 6); 
   /* USER CODE END 2 */
 
   /* Infinite loop */
